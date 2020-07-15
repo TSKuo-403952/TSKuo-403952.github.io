@@ -2,17 +2,26 @@
 <html lang="en">
 
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-170657299-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-170657299-2');
+</script>
+
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>用户手册 - Exchange Zoom</title>
+  <title>Exchange Zoom</title>
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
   <link href="assets/img/s.png" rel="icon">
   <link href="assets/img/l.png" rel="apple-touch-icon">
-
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Muli:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -43,8 +52,8 @@
   <section id="topbar" class="d-none d-lg-block">
     <div class="container d-flex">
       <div class="contact-info mr-auto">
-        <i class="icofont-envelope"></i><a href="mailto:contact@example.com">contact@example.com</a>
-        <i class="icofont-phone"></i> +1 5589 55488 55
+        <i class="icofont-envelope"></i><a href="#">info@example.com</a>
+        <i class="icofont-phone"></i> +139 0185 6234
       </div>
       <div class="social-links">
         <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
@@ -57,7 +66,6 @@
   </section>
 
   <!-- ======= Header ======= -->
-  <!-- ======= Header ======= -->
   <header id="header">
     <div class="container d-flex">
 
@@ -67,20 +75,18 @@
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
-      <div class="col-lg-4 col-md-4 col-sm-5 header">
-        <div class=text-center>
-          <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-dark btn-sm" type="submit">搜索</button>
-              </form>
-            </div>
-        </div>
+      <div class="col-lg-4 col-md-6 footer-newsletter">
+
+        <form action="" method="post">
+          <input type="email" name="email"><input type="submit" value="搜索">
+        </form>
+      </div>
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li><a href="index.html">首页</a></li>
           <li><a href="about.html">关于我们</a></li>
-          <li><a href="services.html">用户手册</a></li>
+
             <li><a href="designer.html">设计师</a></li>
 
 
@@ -106,115 +112,56 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>用户手册</h2>
+          <h2>设计师主页</h2>
           <ol>
             <li><a href="index.html">首页</a></li>
-            <li>用户手册</li>
+            <li><a href="designer.html">设计师</a></li>
+            <li>设计师主页</li>
           </ol>
         </div>
 
       </div>
     </section><!-- End Breadcrumbs -->
 
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
       <div class="container">
-
+        <h2 class="portfolio-title">蔡佳颐Joey的主页</h2>
         <div class="row">
-          <div class="col-lg-12 col-md-12">
-            <div class="icon-box" data-aos="fade-up">
-              <img src="1/2/3/s/1.png"width="1000" height="500"></img>
-              <p class="description"><h5>首页点击进入搜索界面</h5></p>
+
+          <div class="col-lg-8" data-aos="fade-right">
+            <div class="owl-carousel portfolio-details-carousel">
+
+                <img src="assets/myimg/1.jpg" class="img-fluid" alt="">
+                <img src="assets/myimg/2.jpg" class="img-fluid" alt="">
+                <img src="assets/myimg/3.jpg" class="img-fluid" alt="">
+
             </div>
           </div>
-          <div class="col-lg-12 col-md-12">
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-              <img src="1/2/3/s/2.png"width="1000" height="500"><img>
-              <p class="description"><h5>下滑浏览佳作</h5></p>
-            </div>
-          </div>
-          <div class="col-lg-12 col-md-12">
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-              <img src="1/2/3/s/3.png"width="1000" height="500"><img>
-              <p class="description"><h5>设计师页面浏览设计师</h5></p>
-            </div>
-          </div>
-          <div class="col-lg-12 col-md-12">
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
-              <img src="1/2/3/s/4.png"width="1000" height="500"><img>
-              <p class="description"><h5>风格页面筛选风格分类</h5></p>
-            </div>
-          </div>
-          </div>
-        </div>
 
-      </div>
-    </section><!-- End Services Section -->
-
-    <!-- ======= Features Section ======= -->
-    <section id="features" class="features">
-      <div class="container">
-
-        <div class="section-title" data-aos="fade-up">
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4 mb-5 mb-lg-0" data-aos="fade-right">
-            <ul class="nav nav-tabs flex-column">
-              <li class="nav-item">
-                <a class="nav-link active show" data-toggle="tab" href="#tab-1">
-                  <h4>首页</h4>
-                  <p>首页点击进入搜索界面</p>
-                </a>
-              </li>
-              <li class="nav-item mt-2">
-                <a class="nav-link" data-toggle="tab" href="#tab-2">
-                  <h4>首页下滑</h4>
-                  <p>下滑浏览佳作</p>
-                </a>
-              </li>
-              <li class="nav-item mt-2">
-                <a class="nav-link" data-toggle="tab" href="#tab-3">
-                  <h4>设计师</h4>
-                  <p>设计师页面浏览设计师</p>
-                </a>
-              </li>
-              <li class="nav-item mt-2">
-                <a class="nav-link" data-toggle="tab" href="#tab-4">
-                  <h4>风格</h4>
-                  <p>风格页面筛选风格分类</p>
-                </a>
-              </li>
+          <div class="col-lg-4 portfolio-info" data-aos="fade-left">
+            <h3>街区</h3>
+            <ul>
+              <li><strong>风格倾向</strong>: 现代简约</li>
+              <li><strong>关键词</strong>: 黑白灰</li>
+              <li><strong>房型</strong>: 家居住宅-大平层</li>
+              <li><strong>联系我</strong>: <a href="#">Joey@gmail.com</a></li>
+              <br>
+              <button type="button" class="btn btn-info">开始聊天</button>
             </ul>
+
+            <p>
+            将创意具体呈现于空间的每个角落，自基地的原理肌理出发，把线条转化为曲面，搭配极简的照明设计，一走进空间即能体会前沿、年轻的形象。
+            </p>
           </div>
-          <div class="col-lg-7 ml-auto" data-aos="fade-left" data-aos-delay="100">
-            <div class="tab-content">
-              <div class="tab-pane active show" id="tab-1">
-                <figure>
-                  <img src="1/2/3/s/1.png" alt="" class="img-fluid">
-                </figure>
-              </div>
-              <div class="tab-pane" id="tab-2">
-                <figure>
-                  <img src="1/2/3/s/2.png" alt="" class="img-fluid">
-                </figure>
-              </div>
-              <div class="tab-pane" id="tab-3">
-                <figure>
-                  <img src="1/2/3/s/3.png" alt="" class="img-fluid">
-                </figure>
-              </div>
-              <div class="tab-pane" id="tab-4">
-                <figure>
-                  <img src="1/2/3/s/4.png" alt="" class="img-fluid">
-                </figure>
-              </div>
-            </div>
+          <div class="cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#">开启发现之旅</a>
           </div>
+
         </div>
 
       </div>
-    </section><!-- End Features Section -->
+    </section><!-- End Portfolio Details Section -->
 
   </main><!-- End #main -->
 
@@ -233,6 +180,7 @@
               中国传媒大学广告学院<br><br>
               <strong>Phone:</strong> +139 0185 6234<br>
               <strong>Email:</strong> info@example.com<br>
+              图源来自网络<br>
             </p>
           </div>
 
@@ -250,6 +198,7 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>互动专区</h4>
             <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="services.html">用户手册</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">我要投稿</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">合作专区</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">意见反馈</a></li>
@@ -292,7 +241,7 @@
             <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
           </div>
         </div>
-      </footer>
+      </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
